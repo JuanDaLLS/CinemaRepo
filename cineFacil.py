@@ -18,5 +18,5 @@ if movie in availableMovies:
 
 else: print("Titulo incorrecto, prueba de nuevo amigo")
 
-####Para imprimir las reservas en diccionario 
+####Para imprimir las reservas en diccionario ---->
 # print(f"Las reservas son: {reserves}")
