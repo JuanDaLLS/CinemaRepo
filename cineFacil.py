@@ -2,7 +2,6 @@ availableMovies = ["matrix", "prisioners", "el camino", "hereditary", "midsommar
 n= 1
 ticket = 35
 reserves = {}
-
 name = input("Ingrese su nombre: " )
 print(f"Estas son las peliculas disponibles:" )
 for i in availableMovies:
@@ -17,6 +16,9 @@ if movie in availableMovies:
     reserves[name] = movie
 
 else: print("Titulo incorrecto, prueba de nuevo amigo")
+
+def change_price(newPrice):
+    ticket = int(input("Ingrese un nuevo precio para la entrada: "))
 
 ####Para imprimir las reservas en diccionario ---->
 # print(f"Las reservas son: {reserves}")
