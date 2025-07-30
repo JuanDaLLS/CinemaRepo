@@ -14,4 +14,9 @@ if movie in availableMovies:
     howMany = int(input(f"Vas a ver: {movie}" f"\nPrecio por entrada: {ticket}" f"\nCuantos tickets quieres comprar? "))
     price = ticket * howMany
     print(f"----- Resumen de compra ------"f"\nTu nombre: {name}" f"\nVas a ver: {movie}" "\n----Pago total ----", f"\nQ{price}")
+    reserves[name] = movie
+
 else: print("Titulo incorrecto, prueba de nuevo amigo")
+
+####Para imprimir las reservas en diccionario 
+# print(f"Las reservas son: {reserves}")
